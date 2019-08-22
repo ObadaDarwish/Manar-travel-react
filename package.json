@@ -3,22 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "0.19.0",
-    "bootstrap": "4.3.1",
-    "google-map-react": "1.1.4",
-    "react": "16.8.6",
-    "react-bootstrap": "1.0.0-beta.11",
-    "react-dom": "16.8.6",
-    "react-google-maps": "9.4.5",
-    "react-notifications": "1.4.3",
-    "react-router": "5.0.1",
-    "react-router-dom": "5.0.1",
-    "react-scripts": "3.0.1"
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "google-map-react": "^1.1.4",
+    "react": "^16.8.1",
+    "react-bootstrap": "^1.0.0-beta.11",
+    "react-dom": "^16.8.1",
+    "react-google-maps": "^9.4.5",
+    "react-notifications": "^1.4.3",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "^3.0.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    },
+    "setupFilesAfterEnv": [
+      "./setupTests.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "SET REACT_APP_CUSTOM_ENV=development&& react-scripts start",
+    "start-prod": "SET REACT_APP_CUSTOM_ENV=production&& react-scripts start",
+    "build": "SET REACT_APP_CUSTOM_ENV=production&&react-scripts build",
+    "test": "jest --watchAll",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -37,6 +50,17 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "8.0.0"
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.4.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.7.1",
+    "dotenv": "^8.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^24.7.1",
+    "puppeteer": "^1.19.0",
+    "react-test-renderer": "^16.8.6"
   }
 }

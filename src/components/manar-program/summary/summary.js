@@ -1,5 +1,5 @@
 import React from 'react';
-import EnLanguage from '../../../language';
+import {EnLanguage} from '../../../language';
 
 const Summary = (props) => {
     return (

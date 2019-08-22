@@ -1,11 +1,11 @@
 import axios from 'axios';
+import {get_api_end_point} from '../app.settings'
 
-
-export const GetAllManarPrograms = () => {
-    return axios.get(process.env.REACT_APP_DEV_ENDPOINT + '/getAllManarPrograms')
+export const GetManarPrograms = () => {
+    return axios.get(get_api_end_point() + '/programs/getAllManarPrograms')
 }
 
 
 export const ContactUsMessage = (body) => {
-    return axios.post(process.env.REACT_APP_DEV_ENDPOINT + '/contactUS', body)
+    return axios.post(get_api_end_point() + '/contactUS', body)
 }

@@ -1,7 +1,7 @@
 import './landing.css';
 import React from 'react';
 import {Carousel} from 'react-bootstrap';
-import EnLanguage from '../../language';
+import {EnLanguage} from '../../language';
 import Contactus from './contactus/contactus';
 import SimpleMap from '../google-map/google-map';
 import * as landingAPIS from '../../axios/landing'
@@ -15,7 +15,7 @@ export default class Landing extends React.Component {
     };
 
     componentDidMount() {
-        landingAPIS.GetAllManarPrograms().then(res => {
+        landingAPIS.GetManarPrograms().then(res => {
             this.setState({
                 manarPrograms: res.data,
                 loadingManarPrograms: false
@@ -55,7 +55,6 @@ export default class Landing extends React.Component {
                         />
 
                         <Carousel.Caption>
-                            <div className="item_overlay"></div>
                             <div className="moto">
                                 <h1>asdasd</h1>
                                 <p>asdasda</p>
@@ -63,6 +62,7 @@ export default class Landing extends React.Component {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
+                        <div className="item_overlay"></div>
                         <img
                             className="d-block w-100"
                             src="/assets/imgs/makkahtop.jpg"
@@ -108,7 +108,7 @@ export default class Landing extends React.Component {
                                 {this.state.manarPrograms.map((program, index) => {
                                     return (
                                         <div className="item" key={index}>
-                                            <img src={'http://localhost:8000/storage/' + program.picture} alt=""/>
+                                            <img src={'/assets/imgs/' + program.picture} alt=""/>
                                             <div className="itemTitle"><p>{program.name}</p></div>
                                             <div className="itemDescription"><p>{program.programType}</p>
                                                 <p><i className="fa fa-suitcase"></i> Departure: {program.departureDate}

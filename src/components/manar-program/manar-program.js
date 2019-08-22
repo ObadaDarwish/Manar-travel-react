@@ -1,7 +1,7 @@
 import React from 'react';
 import * as programAPIS from '../../axios/programs';
 import LoadingIndicator from '../loading-indicator/loading-indicator'
-import EnLanguage from '../../language';
+import {EnLanguage} from '../../language';
 import {Route, Redirect} from 'react-router-dom';
 import Summary from "./summary/summary";
 
@@ -44,7 +44,7 @@ class ManarProgram extends React.Component {
                     <div className="profileHeader">
                         <div className="banner">
                             <div className="img_container">
-                                <img src={'http://localhost:8000/storage/' + this.state.program.picture} alt=""/>
+                                <img src={'/assets/imgs/' + this.state.program.picture} alt=""/>
                             </div>
                             <div className="details_container">
                                 <h1>{this.state.program.name}</h1>

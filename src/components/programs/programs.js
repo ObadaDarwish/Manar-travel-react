@@ -1,6 +1,6 @@
 import React from 'react';
-import EnLanguage from '../../language';
-import getAllManarPrograms from '../../axios/programs'
+import {EnLanguage} from '../../language';
+import {getAllManarPrograms} from '../../axios/programs'
 import LoadingIndicator from "../loading-indicator/loading-indicator";
 import {NavLink} from 'react-router-dom'
 class Programs extends React.Component {
@@ -10,7 +10,7 @@ class Programs extends React.Component {
     }
 
     componentDidMount() {
-        getAllManarPrograms.then(res => {
+        getAllManarPrograms().then(res => {
             this.setState({
                 programs: res.data,
                 isLoadingPrograms: false
@@ -31,7 +31,7 @@ class Programs extends React.Component {
                     {this.state.programs.map((program, index) => {
                         return (
                             <NavLink to={'/manar-program/' + program.programType + '/' + program.id} className="item" key={index}>
-                                <img src={'http://localhost:8000/storage/' + program.picture} alt=""/>
+                                <img src={'/assets/imgs/' + program.picture} alt=""/>
                                 <div className=" itemTitle"><p>{program.name}</p></div>
                                 <div className=" itemDescription">
                                     <p>{program.programType.toUpperCase()} {EnLanguage.Manar_Programs_html.Program} </p>

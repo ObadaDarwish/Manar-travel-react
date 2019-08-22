@@ -34,8 +34,7 @@
     "mobile": "mobile *",
     "Address": "Address",
     "Open_Time": "Open Time",
-    "Phone": "Phone",
-    "Email": "Email"
+    "Phone": "Phone"
   },
   "custom_programs_html": {
     "Choose_Hotel": "Choose Hotel",

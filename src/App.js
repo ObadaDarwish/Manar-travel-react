@@ -13,7 +13,6 @@ function App() {
                 <Header/>
                 <NotificationContainer/>
             </div>
-
         </Router>
     );
 }
