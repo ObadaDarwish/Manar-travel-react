@@ -4,16 +4,21 @@ import Header from "./components/header/header";
 import {BrowserRouter as Router} from "react-router-dom";
 import {NotificationContainer} from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
+import {Provider} from "react-redux";
+import store from './store/store'
+
 require('dotenv').config()
 
 function App() {
     return (
-        <Router>
-            <div className="App">
-                <Header/>
-                <NotificationContainer/>
-            </div>
-        </Router>
+        <Provider store={store}>
+            <Router>
+                <div className="App">
+                    <Header/>
+                    <NotificationContainer/>
+                </div>
+            </Router>
+        </Provider>
     );
 }
 

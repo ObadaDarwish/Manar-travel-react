@@ -2,63 +2,74 @@ import React from 'react';
 import {EnLanguage} from "../../../language";
 import * as contactUSAPI from '../../../axios/landing';
 import {NotificationManager} from 'react-notifications';
+import {connect} from 'react-redux';
 
-export default class Contactus extends React.Component {
+const mapStateToProps = state => {
+    return {contactUsState: state.contactUsReducer};
+};
 
-    state = {
-        first_name: {
-            value: '',
-            validation: {
-                required: true
-            },
-            errorMessage: '',
-            is_valid: false,
-            is_touched: false
-        },
-        last_name: {
-            value: '',
-            validation: {
-                required: true
-            },
-            errorMessage: '',
-            is_valid: false,
-            is_touched: false
-        },
-        message: {
-            value: '',
-            validation: {
-                required: true,
-                min_length: 5
-            },
-            errorMessage: '',
-            is_valid: false,
-            is_touched: false
-        },
-        email: {
-            value: '',
-            validation: {
-                required: true,
-                pattern: '^(([^<>()[\\]\\\\.,;:\\s@\\"]+(\\.[^<>()[\\]\\\\.,;:\\s@\\"]+)*)|(\\".+\\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$'
-            },
-            errorMessage: '',
-            is_valid: false,
-            is_touched: false
-        },
-        mobile: {
-            value: '',
-            validation: {
-                required: true
-            },
-            errorMessage: '',
-            is_valid: false,
-            is_touched: false
-        },
-        is_form_valid: false
-    }
+function mapDispatchToProps(dispatch) {
+    return {
+        updateContactUs: contact => dispatch(contact)
+    };
+}
+
+class Contactus extends React.Component {
+
+    // state = {
+    //     first_name: {
+    //         value: '',
+    //         validation: {
+    //             required: true
+    //         },
+    //         errorMessage: '',
+    //         is_valid: false,
+    //         is_touched: false
+    //     },
+    //     last_name: {
+    //         value: '',
+    //         validation: {
+    //             required: true
+    //         },
+    //         errorMessage: '',
+    //         is_valid: false,
+    //         is_touched: false
+    //     },
+    //     message: {
+    //         value: '',
+    //         validation: {
+    //             required: true,
+    //             min_length: 5
+    //         },
+    //         errorMessage: '',
+    //         is_valid: false,
+    //         is_touched: false
+    //     },
+    //     email: {
+    //         value: '',
+    //         validation: {
+    //             required: true,
+    //             pattern: '^(([^<>()[\\]\\\\.,;:\\s@\\"]+(\\.[^<>()[\\]\\\\.,;:\\s@\\"]+)*)|(\\".+\\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$'
+    //         },
+    //         errorMessage: '',
+    //         is_valid: false,
+    //         is_touched: false
+    //     },
+    //     mobile: {
+    //         value: '',
+    //         validation: {
+    //             required: true
+    //         },
+    //         errorMessage: '',
+    //         is_valid: false,
+    //         is_touched: false
+    //     },
+    //     is_form_valid: false
+    // }
     contactUS = (event) => {
         event.preventDefault();
         let body;
-        let formValue = {...this.state};
+        let formValue = {...this.props.contactUsState};
         if (formValue.is_form_valid) {
             for (let input in formValue) {
                 if (input !== 'is_form_valid')
@@ -95,10 +106,12 @@ export default class Contactus extends React.Component {
     };
     change = (e) => {
         let updatedValue = {
-            ...this.state[e.target.name]
+            // ...this.props.contactUsState[e.target.name]
+            ...this.props.contactUsState[e.target.name]
         };
         let updatedState = {
-            ...this.state
+            // ...this.props.contactUsState
+            ...this.props.contactUsState
         };
         updatedValue.value = e.target.value;
         updatedValue.is_touched = true;
@@ -112,11 +125,15 @@ export default class Contactus extends React.Component {
             }
         }
         console.log(is_form_valid);
-        this.setState({[e.target.name]: updatedValue, is_form_valid: is_form_valid});
+        // this.setState({[e.target.name]: updatedValue, is_form_valid: is_form_valid});
+        this.props.updateContactUs({
+            type: 'contactUsState',
+            payload: {...updatedState, [e.target.name]: updatedValue, is_form_valid: is_form_valid}
+        })
     };
 
     render() {
-
+        console.log(this.props);
 
         return (
             <div className="contact_us" id="scrollContact">
@@ -132,9 +149,11 @@ export default class Contactus extends React.Component {
                                         <div className="form-group">
                                             <label
                                                 htmlFor="first_name">{EnLanguage.landing_html.First_Name}
-                                                {!this.state.first_name.is_valid && this.state.first_name.is_touched ?
-                                                    <span className="errorMessageClass">{this.state.first_name.errorMessage}</span> : null}</label>
-                                            <input value={this.state.first_name.value} onChange={this.change}
+                                                {!this.props.contactUsState.first_name.is_valid && this.props.contactUsState.first_name.is_touched ?
+                                                    <span
+                                                        className="errorMessageClass">{this.props.contactUsState.first_name.errorMessage}</span> : null}</label>
+                                            <input value={this.props.contactUsState.first_name.value}
+                                                   onChange={this.change}
                                                    type="text"
                                                    placeholder="Ex: Mark"
                                                    className="form-control"
@@ -146,9 +165,11 @@ export default class Contactus extends React.Component {
                                         <div className="form-group">
                                             <label
                                                 htmlFor="last_name">{EnLanguage.landing_html.Last_Name}
-                                                {!this.state.last_name.is_valid && this.state.last_name.is_touched ?
-                                                    <span className="errorMessageClass">{this.state.last_name.errorMessage}</span> : null}</label>
-                                            <input value={this.state.last_name.value} onChange={this.change} type="text"
+                                                {!this.props.contactUsState.last_name.is_valid && this.props.contactUsState.last_name.is_touched ?
+                                                    <span
+                                                        className="errorMessageClass">{this.props.contactUsState.last_name.errorMessage}</span> : null}</label>
+                                            <input value={this.props.contactUsState.last_name.value}
+                                                   onChange={this.change} type="text"
                                                    placeholder="Ex: Thomson"
                                                    className="form-control"
                                                    id="last_name"
@@ -159,9 +180,11 @@ export default class Contactus extends React.Component {
                                         <div className="form-group">
                                             <label
                                                 htmlFor="message">{EnLanguage.landing_html.Message}
-                                                {!this.state.message.is_valid && this.state.message.is_touched ?
-                                                    <span className="errorMessageClass">{this.state.message.errorMessage}</span> : null}</label>
-                                            <textarea value={this.state.message.value} onChange={this.change}
+                                                {!this.props.contactUsState.message.is_valid && this.props.contactUsState.message.is_touched ?
+                                                    <span
+                                                        className="errorMessageClass">{this.props.contactUsState.message.errorMessage}</span> : null}</label>
+                                            <textarea value={this.props.contactUsState.message.value}
+                                                      onChange={this.change}
                                                       className="form-control"
                                                       placeholder="Your message"
                                                       id="message"
@@ -171,9 +194,11 @@ export default class Contactus extends React.Component {
                                     <div className="col-lg-6">
                                         <div className="form-group">
                                             <label htmlFor="email">{EnLanguage.landing_html.Email}
-                                                {!this.state.email.is_valid && this.state.email.is_touched ?
-                                                    <span className="errorMessageClass">{this.state.email.errorMessage}</span> : null}</label>
-                                            <input value={this.state.email.value} onChange={this.change} type="email"
+                                                {!this.props.contactUsState.email.is_valid && this.props.contactUsState.email.is_touched ?
+                                                    <span
+                                                        className="errorMessageClass">{this.props.contactUsState.email.errorMessage}</span> : null}</label>
+                                            <input value={this.props.contactUsState.email.value} onChange={this.change}
+                                                   type="email"
                                                    placeholder="Ex: example@hotmail.com"
                                                    className="form-control"
                                                    id="email"
@@ -184,9 +209,11 @@ export default class Contactus extends React.Component {
                                         <div className="form-group">
                                             <label
                                                 htmlFor="mobile">{EnLanguage.landing_html.mobile}
-                                                {!this.state.mobile.is_valid && this.state.mobile.is_touched ?
-                                                    <span className="errorMessageClass">{this.state.mobile.errorMessage}</span> : null}</label>
-                                            <input value={this.state.mobile.value} onChange={this.change} type="text"
+                                                {!this.props.contactUsState.mobile.is_valid && this.props.contactUsState.mobile.is_touched ?
+                                                    <span
+                                                        className="errorMessageClass">{this.props.contactUsState.mobile.errorMessage}</span> : null}</label>
+                                            <input value={this.props.contactUsState.mobile.value} onChange={this.change}
+                                                   type="text"
                                                    placeholder="Ex: 01XXXXXXXXX"
                                                    className="form-control"
                                                    id="mobile"
@@ -194,7 +221,9 @@ export default class Contactus extends React.Component {
                                         </div>
                                     </div>
                                     <div className="col-lg-12">
-                                        <button type="submit" id="submitButton" className={'sumbitButton'} disabled={!this.state.is_form_valid}>Submit</button>
+                                        <button type="submit" id="submitButton" className={'sumbitButton'}
+                                                disabled={!this.props.contactUsState.is_form_valid}>Submit
+                                        </button>
                                     </div>
                                 </div>
                                 <div className=" col-lg-4">
@@ -225,3 +254,6 @@ export default class Contactus extends React.Component {
         )
     }
 }
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(Contactus)

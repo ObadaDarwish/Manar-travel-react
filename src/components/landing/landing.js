@@ -7,25 +7,50 @@ import SimpleMap from '../google-map/google-map';
 import * as landingAPIS from '../../axios/landing'
 import LoadingIndicator from '../loading-indicator/loading-indicator'
 import {NavLink} from 'react-router-dom';
+import {connect} from "react-redux";
 
-export default class Landing extends React.Component {
-    state = {
-        manarPrograms: [],
-        loadingManarPrograms: true
+const mapStateToProps = state => {
+    return {landingState: state.landingReducer};
+};
+
+function mapDispatchToProps(dispatch) {
+    return {
+        updateLanding: landing => dispatch(landing)
     };
+}
+
+class Landing extends React.Component {
+    // state = {
+    //     manarPrograms: [],
+    //     loadingManarPrograms: true
+    // };
+
 
     componentDidMount() {
         landingAPIS.GetManarPrograms().then(res => {
-            this.setState({
-                manarPrograms: res.data,
-                loadingManarPrograms: false
+            // this.setState({
+            //     manarPrograms: res.data,
+            //     loadingManarPrograms: false
+            // })
+            this.props.updateLanding({
+                type: 'landingState', payload: {
+                    manarPrograms: res.data,
+                    loadingManarPrograms: false
+                }
             })
         }).catch(err => {
             console.log(err);
-            this.setState({
-                loadingManarPrograms: false
+            // this.setState({
+            //     loadingManarPrograms: false
+            // })
+            this.props.updateLanding({
+                type: 'landingState', payload: {
+                    manarPrograms: [],
+                    loadingManarPrograms: false
+                }
             })
         })
+
     }
 
     render() {
@@ -103,9 +128,9 @@ export default class Landing extends React.Component {
                     <NavLink to='/manar-programs' className="see_more"><p>{EnLanguage.landing_html.See_More}</p>
                     </NavLink>
                     <div className="visit">
-                        {this.state.loadingManarPrograms ? <LoadingIndicator/> :
+                        {this.props.landingState.loadingManarPrograms ? <LoadingIndicator/> :
                             <React.Fragment>
-                                {this.state.manarPrograms.map((program, index) => {
+                                {this.props.landingState.manarPrograms.map((program, index) => {
                                     return (
                                         <div className="item" key={index}>
                                             <img src={'/assets/imgs/' + program.picture} alt=""/>
@@ -173,6 +198,6 @@ export default class Landing extends React.Component {
     }
 }
 
-
+export default connect(mapStateToProps, mapDispatchToProps)(Landing)
 
 
