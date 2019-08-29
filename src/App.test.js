@@ -1,6 +1,6 @@
 import React from 'react';
 import Enzyme from 'enzyme';
-import App from './App';
+import App from './App'
 
 describe('App Component test', () => {
     it('checks if class exists', () => {
