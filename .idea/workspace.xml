@@ -20,100 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="681ef373-ea93-46a4-98fa-6019d3270d36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/material.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/imgs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-flex.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-flex.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-flex.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-flex.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/packages/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/landing/landing.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/material.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/aboutus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/elaf.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/flags/egypt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/flags/united-kingdom.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/hajj.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/hilton.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/hourglass.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/load.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/load2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/load3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/madinah.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/madinamosque.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/makkah.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/makkah2-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/makkah2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/makkahtop.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo-min.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/map-marker-png.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/mission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/qubamasged.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/ramdan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/royal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/umrah.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/imgs/zyarah.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-flex.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-flex.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-flex.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-flex.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/packages/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/contactus/contactus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/contactus/contactus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/manar-program/manar-program.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/manar-program/manar-program.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/manar-program/summary/summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/manar-program/summary/summary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/programs/programs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/programs/programs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/en/lang.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/en/lang.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/contactus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/contactus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/manarProgram.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/manarProgram.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/programs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/programs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.settings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +80,17 @@
       <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src\assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -183,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -224,7 +145,7 @@
       <workItem from="1599064109161" duration="710000" />
       <workItem from="1599065093374" duration="696000" />
       <workItem from="1599243693502" duration="51000" />
-      <workItem from="1612367040182" duration="7486000" />
+      <workItem from="1612367040182" duration="11896000" />
     </task>
     <servers />
   </component>
@@ -247,25 +168,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612367046722" />
-    <state width="1345" height="115" key="GridCell.Tab.0.bottom" timestamp="1612373990334">
+    <state width="1345" height="239" key="GridCell.Tab.0.bottom" timestamp="1612382647328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="115" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612373990334" />
-    <state width="1345" height="115" key="GridCell.Tab.0.center" timestamp="1612373990334">
+    <state width="1345" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612382647328" />
+    <state width="1345" height="239" key="GridCell.Tab.0.center" timestamp="1612382647328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="115" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612373990334" />
-    <state width="1345" height="115" key="GridCell.Tab.0.left" timestamp="1612373990333">
+    <state width="1345" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612382647328" />
+    <state width="1345" height="239" key="GridCell.Tab.0.left" timestamp="1612382647328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="115" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612373990333" />
-    <state width="1345" height="115" key="GridCell.Tab.0.right" timestamp="1612373990334">
+    <state width="1345" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612382647328" />
+    <state width="1345" height="239" key="GridCell.Tab.0.right" timestamp="1612382647328">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="115" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612373990334" />
-    <state x="390" y="97" width="585" height="592" key="find.popup" timestamp="1612371689781">
+    <state width="1345" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612382647328" />
+    <state x="390" y="97" width="585" height="592" key="find.popup" timestamp="1612380945670">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="97" width="585" height="592" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1612371689781" />
+    <state x="390" y="97" width="585" height="592" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1612380945670" />
   </component>
 </project>
