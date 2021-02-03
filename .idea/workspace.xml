@@ -1,111 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="681ef373-ea93-46a4-98fa-6019d3270d36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/material.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/imgs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-flex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-flex.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-flex.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-flex.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/packages/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/landing/landing.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/material.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/aboutus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/elaf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/flags/egypt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/flags/united-kingdom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/hajj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/hilton.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/hourglass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/load.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/load2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/load3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/madinah.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/madinamosque.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/makkah.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/makkah2-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/makkah2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/makkahtop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/manar_logo5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/map-marker-png.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/mission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/qubamasged.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/ramdan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/royal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/umrah.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/imgs/zyarah.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-flex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-flex.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-flex.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-flex.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/packages/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/contactus/contactus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/contactus/contactus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/landing/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landing/landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/manar-program/manar-program.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/manar-program/manar-program.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/manar-program/summary/summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/manar-program/summary/summary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/programs/programs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/programs/programs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/en/lang.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/en/lang.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/contactus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/contactus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/manarProgram.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/manarProgram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/programs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/programs.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1996989800">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="babelrc" value="2" />
-          <entry key="css" value="7" />
-          <entry key="env" value="17" />
-          <entry key="gitignore" value="2" />
-          <entry key="html" value="6" />
-          <entry key="jpg" value="3" />
-          <entry key="js" value="204" />
-          <entry key="json" value="26" />
-          <entry key="md" value="1" />
-          <entry key="png" value="1" />
-          <entry key="rnc" value="1" />
-          <entry key="svg" value="2" />
-          <entry key="ts" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="7" />
-          <entry key="Git file" value="2" />
-          <entry key="HTML" value="6" />
-          <entry key="Image" value="4" />
-          <entry key="JSON" value="26" />
-          <entry key="JavaScript" value="203" />
-          <entry key="PLAIN_TEXT" value="21" />
-          <entry key="RNG Compact" value="1" />
-          <entry key="SVG" value="2" />
-          <entry key="TypeScript" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="ESLintLanguageService" value="13" />
-          <entry key="TypeScriptServerServiceImpl" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="110" />
-          <entry key="env" value="91" />
-          <entry key="html" value="9" />
-          <entry key="js" value="11771" />
-          <entry key="json" value="353" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="110" />
-          <entry key="HTML" value="9" />
-          <entry key="JSON" value="353" />
-          <entry key="JavaScript" value="11712" />
-          <entry key="PLAIN_TEXT" value="150" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setupTests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,187 +128,66 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>setupTestFrameworkScriptFile</find>
-      <find>sumbitButton</find>
-      <find>mockContactUS</find>
-      <find>getAllManarProgram</find>
-      <find>console.log</find>
-      <find>REACT_APP_DEV_ENDPOINT</find>
-      <find>process.env.REACT</find>
-      <find>3000</find>
-      <find>EnLanguage</find>
-      <find>get_api_end_point</find>
-      <find>'errorMessage'</find>
-      <find>span</find>
-      <find>.e</find>
-      <find>errorMessage</find>
-      <find>className=&quot;errorMessage&quot;</find>
-      <find>&quot;errorMessageClass&quot;</find>
-      <find>contact</find>
-      <find>submitButton</find>
-      <find>setState</find>
-      <find>red</find>
-      <find>state</find>
-      <find>this</find>
-      <find>landindState</find>
-      <find>programsState</find>
-      <find>manarp</find>
-      <find>this.state</find>
-      <find>console</find>
-      <find>consolelo</find>
-      <find>is_valid</find>
-      <find>Enzyme.sha</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/components/landing/landing.css" />
-        <option value="$PROJECT_DIR$/src/components/google-map/google-map.js" />
-        <option value="$PROJECT_DIR$/src/components/route-1/child1/child1.js" />
-        <option value="$PROJECT_DIR$/src/components/route-1/route1.js" />
-        <option value="$PROJECT_DIR$/src/components/route-2/route2.js" />
-        <option value="$PROJECT_DIR$/src/axios/contactus.js" />
-        <option value="$PROJECT_DIR$/src/hoc/Env.js" />
-        <option value="$PROJECT_DIR$/src/hoc/Environment.js" />
-        <option value="$PROJECT_DIR$/src/components/loading-indicator/Loading-indicator.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/header/header.js" />
-        <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/jest-transforme.js" />
-        <option value="$PROJECT_DIR$/src/__mocks__/landing.js" />
-        <option value="$PROJECT_DIR$/src/components/landing/__mocks__/landing.js" />
-        <option value="$PROJECT_DIR$/babel.config.js" />
-        <option value="$PROJECT_DIR$/src/axios/__mocks__/programs.js" />
-        <option value="$PROJECT_DIR$/src/components/programs/programs.test.js" />
-        <option value="$PROJECT_DIR$/src/axios/__mocks__/landing.js" />
-        <option value="$PROJECT_DIR$/src/components/landing/landing.test.js" />
-        <option value="$PROJECT_DIR$/app.settings.js" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/src/language.js" />
-        <option value="$PROJECT_DIR$/src/components/manar-program/summary/summary.js" />
-        <option value="$PROJECT_DIR$/src/axios/programs.js" />
-        <option value="$PROJECT_DIR$/src/axios/landing.js" />
-        <option value="$PROJECT_DIR$/src/lang/en/lang.json" />
-        <option value="$PROJECT_DIR$/src/lang/ar/lang.json" />
-        <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/store.js" />
-        <option value="$PROJECT_DIR$/src/app.settings.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/programs.js" />
-        <option value="$PROJECT_DIR$/src/components/programs/programs.js" />
-        <option value="$PROJECT_DIR$/src/components/manar-program/manar-program.js" />
-        <option value="$PROJECT_DIR$/src/store/store.js" />
-        <option value="$PROJECT_DIR$/src/components/landing/landing.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/landing.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/manarProgram.js" />
-        <option value="$PROJECT_DIR$/src/components/landing/contactus/contactus.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/contactus.js" />
-        <option value="$PROJECT_DIR$/src/components/landing/contactus/contactus.test.js" />
-        <option value="$PROJECT_DIR$/src/App.test.js" />
-        <option value="$PROJECT_DIR$/setupTests.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1370" />
-    <option name="height" value="744" />
-  </component>
+  <component name="ProjectId" id="1gxlP0Rg1LjI2SDuTHzUJdjIg7w" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="manar-travel-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manar-travel-react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="manar-travel-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="manar-travel-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/src/App.js&#10;packa&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/package.json&#10;heade&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/src/components/header/header.js" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="pro&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/src/store/reducers/programs.js&#10;app.cs&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/src/App.css&#10;packa&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/package.json&#10;app&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/src/App.js&#10;heade&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/src/components/header/header.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ManarTravelNode" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\Obada Darwish\WebstormProjects\manar-travel-react\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.6\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\public" />
-      <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src\assets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\manar-travel-react\src" />
       <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src" />
       <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src\store" />
       <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src\axios" />
       <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src\components\landing" />
-      <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\public" />
+      <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src\assets" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="npm.start" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -323,344 +215,57 @@
       <workItem from="1566502950317" duration="541000" />
       <workItem from="1566509054305" duration="10099000" />
       <workItem from="1566722873151" duration="37000" />
-      <workItem from="1567082374015" duration="4712000" />
+      <workItem from="1567082374015" duration="9497000" />
+      <workItem from="1567367332371" duration="1978000" />
+      <workItem from="1567873377574" duration="3573000" />
+      <workItem from="1568669103644" duration="4590000" />
+      <workItem from="1568710438967" duration="552000" />
+      <workItem from="1581780411055" duration="132000" />
+      <workItem from="1599064109161" duration="710000" />
+      <workItem from="1599065093374" duration="696000" />
+      <workItem from="1599243693502" duration="51000" />
+      <workItem from="1612367040182" duration="7486000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112568000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info id="npm" order="0" side_tool="true" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.19940476" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="6" weight="0.32993197" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29761904" />
-      <window_info anchor="right" x="0" y="0" width="292" height="535" id="Documentation" order="0" side_tool="true" weight="0.32977098" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/route-1/route1.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/route-2/route2.js" />
-    <entry file="file://$PROJECT_DIR$/src/hoc/Env.js" />
-    <entry file="file://$PROJECT_DIR$/src/hoc/Environment.js" />
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="53" column="12" lean-forward="true" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/loading-indicator/loading-indicator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/template/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-notifications/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/babel__core/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/node_modules/jest/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/enzyme/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1391" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/enzyme-adapter-react-16/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/babel-jest/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc" />
-    <entry file="file://$PROJECT_DIR$/jest-transformer.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/header/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/axios/__mocks__/landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/axios/__mocks__/programs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/programs/programs.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/globals.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="736" column="8" selection-start-line="736" selection-start-column="8" selection-end-line="736" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="2168" column="18" lean-forward="true" selection-start-line="2168" selection-start-column="18" selection-end-line="2168" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/axios/programs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/axios/landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/manar-program/summary/summary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/language.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lang/en/lang.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lang/ar/lang.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="2204" column="33" selection-start-line="2204" selection-start-column="33" selection-end-line="2204" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/programs/programs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/manar-program/manar-program.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1244">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/manarProgram.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/programs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/landing/landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-redux/es/components/Provider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/contactus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/landing/contactus/contactus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4032">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/landing/landing.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/landing/contactus/contactus.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setupTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1612367046722">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612367046722" />
+    <state width="1345" height="115" key="GridCell.Tab.0.bottom" timestamp="1612373990334">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="115" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612373990334" />
+    <state width="1345" height="115" key="GridCell.Tab.0.center" timestamp="1612373990334">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="115" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612373990334" />
+    <state width="1345" height="115" key="GridCell.Tab.0.left" timestamp="1612373990333">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="115" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612373990333" />
+    <state width="1345" height="115" key="GridCell.Tab.0.right" timestamp="1612373990334">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="115" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612373990334" />
+    <state x="390" y="97" width="585" height="592" key="find.popup" timestamp="1612371689781">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="97" width="585" height="592" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1612371689781" />
   </component>
 </project>

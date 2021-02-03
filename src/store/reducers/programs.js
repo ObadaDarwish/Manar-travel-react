@@ -1,10 +1,10 @@
+import  {PROGRAMS} from '../actions'
 export const programsReducer = (state ={
     programs: [],
     isLoadingPrograms: true
 }, action) => {
-    console.log(action);
-    if (action.type === 'programsState') {
-        return action.payload
+    if (action.type === PROGRAMS) {
+        return {...state, ...action.payload}
     }
     return state
 };

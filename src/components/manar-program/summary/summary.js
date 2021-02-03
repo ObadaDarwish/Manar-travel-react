@@ -2,6 +2,7 @@ import React from 'react';
 import {EnLanguage} from '../../../language';
 
 const Summary = (props) => {
+    console.log(props);
     return (
         <div className="profile_body">
             <div className="Title right">
@@ -99,11 +100,11 @@ const Summary = (props) => {
             <div className="rules">
                 <div>
                     <h3>{EnLanguage.program_profile_html.Includes}</h3>
-                    <div dangerouslySetInnerHTML={{ __html: props.location.state.program.includes }}></div>
+                    <div dangerouslySetInnerHTML={{ __html: props.location.state.program.includes }}/>
                 </div>
                 <div>
                     <h3>{EnLanguage.program_profile_html.General_Conditions}</h3>
-                    <div dangerouslySetInnerHTML={{ __html: props.location.state.program.generalConditions }}></div>
+                    <div dangerouslySetInnerHTML={{ __html: props.location.state.program.generalConditions }}/>
                 </div>
 
             </div>

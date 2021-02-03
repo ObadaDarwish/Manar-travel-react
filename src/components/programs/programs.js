@@ -4,7 +4,7 @@ import {getAllManarPrograms} from '../../axios/programs'
 import LoadingIndicator from "../loading-indicator/loading-indicator";
 import {NavLink} from 'react-router-dom';
 import {connect} from "react-redux";
-
+import {PROGRAMS} from '../../store/actions'
 const mapStateToProps = state => {
     return {programsState: state.programsReducer};
 };
@@ -29,14 +29,14 @@ class Programs extends React.Component {
             // })
 
             this.props.updatePrograms({
-                type: 'programsState', payload: {
+                type: PROGRAMS, payload: {
                     programs: res.data,
                     isLoadingPrograms: false
                 }
             })
         }).catch(err => {
             this.props.updatePrograms({
-                type: 'programsState', payload: {
+                type: PROGRAMS, payload: {
                     programs: [],
                     isLoadingPrograms: false
                 }
@@ -58,7 +58,7 @@ class Programs extends React.Component {
                         return (
                             <NavLink to={'/manar-program/' + program.programType + '/' + program.id} className="item"
                                      key={index}>
-                                <img src={'/assets/imgs/' + program.picture} alt=""/>
+                                <img src={require('../../assets/imgs/' + program.picture)} alt=""/>
                                 <div className=" itemTitle"><p>{program.name}</p></div>
                                 <div className=" itemDescription">
                                     <p>{program.programType.toUpperCase()} {EnLanguage.Manar_Programs_html.Program} </p>

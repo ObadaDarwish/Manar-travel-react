@@ -2,9 +2,12 @@ import React from 'react';
 import * as programAPIS from '../../axios/programs';
 import LoadingIndicator from '../loading-indicator/loading-indicator'
 import {EnLanguage} from '../../language';
-import {Route, Redirect} from 'react-router-dom';
+import {Route, Redirect, NavLink} from 'react-router-dom';
 import Summary from "./summary/summary";
 import {connect} from 'react-redux';
+import {MANAR_PROGRAM} from '../../store/actions';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faHourglass, faHourglassHalf} from '@fortawesome/free-solid-svg-icons';
 
 const mapStateToProps = state => {
     return {manarProgramState: state.manarProgramReducer};
@@ -18,20 +21,11 @@ function mapDispatchToProps(dispatch) {
 
 class ManarProgram extends React.Component {
 
-    // state = {
-    //     program: '',
-    //     isProgramLoading: true,
-    // }
-
     componentDidMount() {
         if (this.props.match.params.code === 'umrah') {
             programAPIS.getUmrahProgram(this.props.match.params.id).then(res => {
-                // this.setState({
-                //     program: res.data[0],
-                //     isProgramLoading: false
-                // })
                 this.props.updateManarProgram({
-                    type: 'manarProgramState', payload: {
+                    type: MANAR_PROGRAM, payload: {
                         program: res.data[0],
                         isProgramLoading: false
                     }
@@ -39,12 +33,8 @@ class ManarProgram extends React.Component {
             })
         } else {
             programAPIS.getHajjProgram(this.props.match.params.id).then(res => {
-                // this.setState({
-                //     program: res.data[0],
-                //     isProgramLoading: false
-                // })
                 this.props.updateManarProgram({
-                    type: 'manarProgramState', payload: {
+                    type: MANAR_PROGRAM, payload: {
                         program: res.data[0],
                         isProgramLoading: false
                     }
@@ -59,7 +49,6 @@ class ManarProgram extends React.Component {
     }
 
     render() {
-        console.log(this.props);
         return (
             <div>
                 {this.props.manarProgramState.isProgramLoading ? <div>
@@ -68,15 +57,18 @@ class ManarProgram extends React.Component {
                     <div className="profileHeader">
                         <div className="banner">
                             <div className="img_container">
-                                <img src={'/assets/imgs/' + this.props.manarProgramState.program.picture} alt=""/>
+                                <img src={require('../../assets/imgs/' + this.props.manarProgramState.program.picture)}
+                                     alt=""/>
                             </div>
                             <div className="details_container">
                                 <h1>{this.props.manarProgramState.program.name}</h1>
                                 <p>{this.props.manarProgramState.program.programType} {EnLanguage.program_profile_html.program}</p>
-                                <div className="horizontal_line programHeader"></div>
+                                <div className="horizontal_line programHeader"/>
                                 <div className="date">
                                     <div className="tripDuration">
-                                        <p><i className="fa fa-hourglass-half" aria-hidden="true"></i>
+                                        <p>
+                                            <FontAwesomeIcon icon={faHourglassHalf}
+                                                             style={{color: 'white', marginRight: '5px'}} size={'1x'}/>
                                             {EnLanguage.program_profile_html.Trip_duration}
                                             : {this.props.manarProgramState.program.tripDuration}
                                             {EnLanguage.program_profile_html.Days}</p>
@@ -108,21 +100,22 @@ class ManarProgram extends React.Component {
                             </div>
                         </div>
                         <div className="program_routes">
-                            <div className="route_tab">
+                            <NavLink to={this.props.match.url + '/summary'} className="route_tab">
                                 <p>{EnLanguage.program_profile_html.Summary}</p>
-                            </div>
-                            <div className="route_tab">
-                                <p>{EnLanguage.program_profile_html.Gallery}</p>
-                            </div>
+                            </NavLink>
+                            {/*<NavLink to={this.props.match.url + '/gallery'} className="route_tab">*/}
+                            {/*    <p>{EnLanguage.program_profile_html.Gallery}</p>*/}
+                            {/*</NavLink>*/}
                         </div>
                     </div>
                     {/*router outlet*/}
 
-                    <Route path={this.props.match.url + '/summary'} component={Summary}/>
-                    <Redirect from={this.props.match.url + '/'} to={{
-                        pathname: this.props.match.url + '/summary',
-                        state: this.props.manarProgramState
-                    }}/>
+                    <Route path={this.props.match.url + '/summary'}
+                           component={Summary}/>
+                    {/*<Redirect from={this.props.match.url + '/'} to={{*/}
+                    {/*    pathname: this.props.match.url + '/summary',*/}
+                    {/*    state: this.props.manarProgramState*/}
+                    {/*}}/>*/}
 
                     <div className="requestProgram">
                         <div className="requestButton" onClick={this.requestProgram}>

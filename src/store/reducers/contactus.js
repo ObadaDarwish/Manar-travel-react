@@ -1,3 +1,4 @@
+import  {CONTACT_US} from '../actions'
 export const contactUsReducer = (state = {
     first_name: {
         value: '',
@@ -48,10 +49,9 @@ export const contactUsReducer = (state = {
     },
     is_form_valid: false
 }, action) => {
-    console.log(action);
-    if (action.type === 'contactUsState') {
+    if (action.type === CONTACT_US) {
         // let updatedState = action.payload
-        return state = action.payload
+        return {...state, ...action.payload}
     }
     return state
 };

@@ -1,11 +1,8 @@
 import React from 'react';
 import {Route, NavLink} from "react-router-dom";
-import Landing from "../landing/landing";
-import ManarProgram from "../manar-program/manar-program";
-import Programs from "../programs/programs";
+import logo from "../../assets/imgs/manar_logo2.png"
 
-
-const Header = (props) => {
+const Header = ({aboutUsClick}) => {
 
 
     return (
@@ -13,12 +10,12 @@ const Header = (props) => {
             <div className="navBody">
                 <div className="navigation">
                     <div className="tab logo">
-                        <img src="/assets/imgs/manar_logo2.png" alt=""/>
+                        <img src={logo} alt=""/>
                         <p>Manar Travel</p>
                     </div>
                     <NavLink to='/' className="tab"><p>Home</p></NavLink>
-                    <div className="tab"><p>Aboutus</p></div>
-                    <div  className="tab"><p>Contactus</p></div>
+                    <div className="tab" onClick={aboutUsClick}><p>Aboutus</p></div>
+                    <div className="tab"><p>Contactus</p></div>
                     <div className="tab language_dropdown" placeholder="Select language">
                         Language
                         {/*<mat-option value="ar">*/}
@@ -32,9 +29,6 @@ const Header = (props) => {
                     </div>
                 </div>
             </div>
-            <Route exact path="/" component={Landing}/>
-            <Route path="/manar-program/:code/:id" component={ManarProgram}/>
-            <Route path="/manar-programs" component={Programs}/>
         </div>
     )
 }

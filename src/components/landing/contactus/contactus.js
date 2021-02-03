@@ -3,7 +3,7 @@ import {EnLanguage} from "../../../language";
 import * as contactUSAPI from '../../../axios/landing';
 import {NotificationManager} from 'react-notifications';
 import {connect} from 'react-redux';
-
+import {CONTACT_US} from '../../../store/actions'
 const mapStateToProps = state => {
     return {contactUsState: state.contactUsReducer};
 };
@@ -77,9 +77,7 @@ class Contactus extends React.Component {
                 body['created_at'] = new Date();
             }
             contactUSAPI.ContactUsMessage(body).then(res => {
-                console.log(res)
             }).catch(err => {
-                console.log(err);
 
                 NotificationManager.error('Error', 'Opps, sorry something went wrong!')
             })
@@ -120,20 +118,17 @@ class Contactus extends React.Component {
         let is_form_valid = true;
         for (let formInput in updatedState) {
             if (formInput !== 'is_form_valid') {
-                console.log(updatedState[formInput])
                 is_form_valid = updatedState[formInput].is_valid && is_form_valid
             }
         }
-        console.log(is_form_valid);
         // this.setState({[e.target.name]: updatedValue, is_form_valid: is_form_valid});
         this.props.updateContactUs({
-            type: 'contactUsState',
+            type: CONTACT_US,
             payload: {...updatedState, [e.target.name]: updatedValue, is_form_valid: is_form_valid}
         })
     };
 
     render() {
-        console.log(this.props);
 
         return (
             <div className="contact_us" id="scrollContact">
@@ -148,7 +143,7 @@ class Contactus extends React.Component {
                                     <div className="col-lg-6">
                                         <div className="form-group">
                                             <label
-                                                htmlFor="first_name">{EnLanguage.landing_html.First_Name}
+                                                htmlFor="first_name">{EnLanguage.landing_html.First_Name+" *"}
                                                 {!this.props.contactUsState.first_name.is_valid && this.props.contactUsState.first_name.is_touched ?
                                                     <span
                                                         className="errorMessageClass">{this.props.contactUsState.first_name.errorMessage}</span> : null}</label>
@@ -164,7 +159,7 @@ class Contactus extends React.Component {
                                     <div className="col-lg-6">
                                         <div className="form-group">
                                             <label
-                                                htmlFor="last_name">{EnLanguage.landing_html.Last_Name}
+                                                htmlFor="last_name">{EnLanguage.landing_html.Last_Name+" *"}
                                                 {!this.props.contactUsState.last_name.is_valid && this.props.contactUsState.last_name.is_touched ?
                                                     <span
                                                         className="errorMessageClass">{this.props.contactUsState.last_name.errorMessage}</span> : null}</label>
@@ -179,7 +174,7 @@ class Contactus extends React.Component {
                                     <div className="col-lg-12">
                                         <div className="form-group">
                                             <label
-                                                htmlFor="message">{EnLanguage.landing_html.Message}
+                                                htmlFor="message">{EnLanguage.landing_html.Message+" *"}
                                                 {!this.props.contactUsState.message.is_valid && this.props.contactUsState.message.is_touched ?
                                                     <span
                                                         className="errorMessageClass">{this.props.contactUsState.message.errorMessage}</span> : null}</label>
@@ -193,7 +188,7 @@ class Contactus extends React.Component {
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="form-group">
-                                            <label htmlFor="email">{EnLanguage.landing_html.Email}
+                                            <label htmlFor="email">{EnLanguage.landing_html.Email+" *"}
                                                 {!this.props.contactUsState.email.is_valid && this.props.contactUsState.email.is_touched ?
                                                     <span
                                                         className="errorMessageClass">{this.props.contactUsState.email.errorMessage}</span> : null}</label>
@@ -208,7 +203,7 @@ class Contactus extends React.Component {
                                     <div className="col-lg-6">
                                         <div className="form-group">
                                             <label
-                                                htmlFor="mobile">{EnLanguage.landing_html.mobile}
+                                                htmlFor="mobile">{EnLanguage.landing_html.mobile+" *"}
                                                 {!this.props.contactUsState.mobile.is_valid && this.props.contactUsState.mobile.is_touched ?
                                                     <span
                                                         className="errorMessageClass">{this.props.contactUsState.mobile.errorMessage}</span> : null}</label>
