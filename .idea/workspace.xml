@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="681ef373-ea93-46a4-98fa-6019d3270d36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.settings.js" afterDir="false" />
-    </list>
+    <list default="true" id="681ef373-ea93-46a4-98fa-6019d3270d36" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,74 +36,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1gxlP0Rg1LjI2SDuTHzUJdjIg7w" />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1370" />
+    <option name="height" value="735" />
+  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="pro&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/src/store/reducers/programs.js&#10;app.cs&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/src/App.css&#10;packa&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/package.json&#10;app&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/src/App.js&#10;heade&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/src/components/header/header.js" />
+    <property name="SearchEverywhereHistoryKey" value="heade&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/src/components/header/header.js&#10;packa&#9;FILE&#9;file://C:/Users/ObadaDarwish/WebstormProjects/manar-travel-react/package.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ManarTravelNode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reactjs2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="C:\Users\Obada Darwish\WebstormProjects\manar-travel-react\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.6\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WebstormProjects\manar-travel-react\src" />
-      <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src" />
-      <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src\store" />
-      <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src\axios" />
-      <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src\components\landing" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\public" />
       <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src\assets" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\src" />
+      <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\public" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.build">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.start" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -121,36 +84,12 @@
       <updated>1564952926415</updated>
       <workItem from="1564952927896" duration="5467000" />
       <workItem from="1565388369852" duration="16259000" />
-      <workItem from="1565531226004" duration="15891000" />
-      <workItem from="1565651431763" duration="1192000" />
-      <workItem from="1565793698644" duration="769000" />
-      <workItem from="1565830497364" duration="329000" />
-      <workItem from="1565892361262" duration="476000" />
-      <workItem from="1565898027699" duration="847000" />
-      <workItem from="1565967461662" duration="256000" />
-      <workItem from="1565968356067" duration="6592000" />
-      <workItem from="1565987404613" duration="29223000" />
-      <workItem from="1566379593385" duration="6326000" />
-      <workItem from="1566402380978" duration="238000" />
-      <workItem from="1566418516474" duration="13314000" />
-      <workItem from="1566502950317" duration="541000" />
-      <workItem from="1566509054305" duration="10099000" />
-      <workItem from="1566722873151" duration="37000" />
-      <workItem from="1567082374015" duration="9497000" />
-      <workItem from="1567367332371" duration="1978000" />
-      <workItem from="1567873377574" duration="3573000" />
-      <workItem from="1568669103644" duration="4590000" />
-      <workItem from="1568710438967" duration="552000" />
-      <workItem from="1581780411055" duration="132000" />
-      <workItem from="1599064109161" duration="710000" />
-      <workItem from="1599065093374" duration="696000" />
-      <workItem from="1599243693502" duration="51000" />
-      <workItem from="1612367040182" duration="11896000" />
+      <workItem from="1565531226004" duration="15458000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -162,31 +101,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1612367046722">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1612367046722" />
-    <state width="1345" height="239" key="GridCell.Tab.0.bottom" timestamp="1612382647328">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612382647328" />
-    <state width="1345" height="239" key="GridCell.Tab.0.center" timestamp="1612382647328">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612382647328" />
-    <state width="1345" height="239" key="GridCell.Tab.0.left" timestamp="1612382647328">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612382647328" />
-    <state width="1345" height="239" key="GridCell.Tab.0.right" timestamp="1612382647328">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612382647328" />
-    <state x="390" y="97" width="585" height="592" key="find.popup" timestamp="1612380945670">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="390" y="97" width="585" height="592" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1612380945670" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
