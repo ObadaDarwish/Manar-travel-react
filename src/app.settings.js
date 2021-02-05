@@ -3,7 +3,7 @@ export const get_api_end_point = () => {
     console.log(process.env.NODE_ENV)
     switch (process.env.NODE_ENV) {
         case 'production':
-            endPoint = 'https://manartravel-1510421787193.uc.r.appspot.com';
+            endPoint = 'https://manartravel.uc.r.appspot.com';
             break;
         default:
             endPoint = 'http://localhost:3001';

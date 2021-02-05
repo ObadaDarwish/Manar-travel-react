@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="681ef373-ea93-46a4-98fa-6019d3270d36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +74,23 @@
       <recent name="C:\Users\ObadaDarwish\WebstormProjects\manar-travel-react\public" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -108,21 +123,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="200" key="GridCell.Tab.0.bottom" timestamp="1612401428447">
+    <state width="1345" height="200" key="GridCell.Tab.0.bottom" timestamp="1612454527653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612401428447" />
-    <state width="1345" height="200" key="GridCell.Tab.0.center" timestamp="1612401428447">
+    <state width="1345" height="200" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612454527653" />
+    <state width="1345" height="200" key="GridCell.Tab.0.center" timestamp="1612454527652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="200" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612401428447" />
-    <state width="1345" height="200" key="GridCell.Tab.0.left" timestamp="1612401428446">
+    <state width="1345" height="200" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612454527652" />
+    <state width="1345" height="200" key="GridCell.Tab.0.left" timestamp="1612454527652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="200" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612401428446" />
-    <state width="1345" height="200" key="GridCell.Tab.0.right" timestamp="1612401428447">
+    <state width="1345" height="200" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612454527652" />
+    <state width="1345" height="200" key="GridCell.Tab.0.right" timestamp="1612454527652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="200" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612401428447" />
+    <state width="1345" height="200" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612454527652" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1612409789078">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1612409789078" />
   </component>
 </project>
